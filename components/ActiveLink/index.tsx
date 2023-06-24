@@ -15,22 +15,22 @@ interface IActiveLink {
 
 const ActiveLink: React.FC<IActiveLink &
   React.AnchorHTMLAttributes<HTMLAnchorElement>> = ({ children, ...props }) => {
-    const router = useRouter();
-    let className = props.className || '';
+  const router = useRouter();
+  let className = props.className || '';
 
-    const { href, activeClassName } = props;
+  const { href, activeClassName } = props;
 
-    if (router.pathname === href && activeClassName) {
-      className = `${className} ${props.activeClassName}`.trim();
-    }
+  if (router.pathname === href && activeClassName) {
+    className = `${className} ${props.activeClassName}`.trim();
+  }
 
-    if (props.activeClassName) delete props['activeClassName'];
+  if (props.activeClassName) delete props['activeClassName'];
 
-    return (
-      <Link {...props} className={className}>
-        {children}
-      </Link>
-    );
-  };
+  return (
+    <Link {...props} className={className}>
+      {children}
+    </Link>
+  );
+};
 
 export default ActiveLink;

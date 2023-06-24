@@ -428,13 +428,13 @@ export const BackLay = styled.div`
     font-family: Abril FatFace;
     font-size: 29.42vmin;
     ${(props) =>
-        props.title === 'About Me' ||
-            props.title === 'Contact' ||
-            props.title === 'Home'
-            ? css`
+    props.title === 'About Me' ||
+      props.title === 'Contact' ||
+      props.title === 'Home'
+      ? css`
             writing-mode: unset;
           `
-            : css`
+      : css`
             writing-mode: tb-rl;
           `}
 

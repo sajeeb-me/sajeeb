@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 /* -------------------------- Internal Dependencies ------------------------- */
 
 import Layout, { PageWrapper } from '../components/Layout';
-// import FooterLink from '../components/Footer';
+import FooterLink from '../components/Footer';
 
 import { getTransitions } from '../components/Utils';
 
@@ -24,50 +24,34 @@ const Home = () => {
         <PageWrapper>
           <article>
             <motion.h1
-              data-text="I'm Adenekan Wonderful"
+              data-text="I'm Sajeeb Das Shuvo"
               className="intro__text"
               {...getTransitions(0.1)}
             >
-              <mark className="mark">I&apos;m Adenekan Wonderful</mark>
+              <mark className="mark">I&apos;m Sajeeb Das Shuvo</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
-              {' '}
-              Your friendly neighborhood frontend developer, UX architect, and
-              JavaScript engineer. I spend my days (and often nights) painting
-              the Internet canvas with{' '}
-              <Link href="/projects" aria-label="Go to Projects Page">
-                Projects
-              </Link>{' '}
-              and lines of code, turning zeroes and ones into immersive,
-              interactive experiences,{' '}
+              I'm your friendly neighborhood <b>Full Stack Engineer</b>, armed with a keyboard and a passion for crafting awesome web experiences. From React Native to Next.js and TypeScript, I've got the skills to make your digital dreams come true.
             </motion.p>
+
             <motion.p {...getTransitions(0.5)}>
-              Bona fide photochromic{' '}
-              <Link href="/articles" aria-label="Check out my Lens">
-                Lens
-              </Link>{' '}
-              enthusiast - sunlight or indoors, I&apos;ve got it covered. I
-              tread the path of minimalism, finding beauty in simplicity and
-              order. When I'm not crafting beautiful web experiences, you can
-              find me reading{' '}
-              <Link
-                href="/articles"
-                aria-label="Go to Articles Page And Check What I Read"
-              >
-                Articles
-              </Link>{' '}
-              or swaying to the rhythm of Pop Music & Jazz, losing myself in the
-              captivating flow of melodies. anyways you can{' '}
-              <Link href="/contact" aria-label="Go to Contact Page">
-                Contact Me
-              </Link>
+              I take a no-nonsense approach when it comes to building robust and scalable applications. But don't worry, my code is much funnier than my jokes - and that's saying something! I believe in bringing a touch of humor to my work while maintaining the utmost professionalism.
+            </motion.p>
+
+            <motion.p {...getTransitions(0.7)}>
+              When I'm not knee-deep in code, you might catch me busting a move to the beat of pop music and jazz. It keeps my creative juices flowing and ensures I'm always in sync with the latest trends. Ready to bring your project to life? Let's join forces and create some tech magic that'll leave everyone grinning from ear to ear. Get in touch, and let the fun begin!
             </motion.p>
           </article>
 
           <br />
-          <motion.div {...getTransitions(0.7)}>
-            {/* <FooterLink goto="/about">See More About Me</FooterLink> */}
+
+          <motion.div {...getTransitions(0.9)}>
+            <FooterLink goto="/projects">See My Latest Project</FooterLink>
           </motion.div>
+
+          {/* <motion.div {...getTransitions(0.9)}>
+            <FooterLink goto="/about">See More About Me</FooterLink>
+          </motion.div> */}
 
           <br />
         </PageWrapper>
