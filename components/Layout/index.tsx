@@ -19,6 +19,7 @@ import SkipToMain from '../A11y/skip-to-main';
 import { BackLay, BodyStyling, Main } from './style';
 import { actions } from './data';
 import Head from 'next/head';
+import Sidebar from '../Sidebar';
 
 const Layout: React.FC<PropsWithChildren<{
   title?: string;
@@ -42,7 +43,7 @@ const Layout: React.FC<PropsWithChildren<{
     <Main>
       <BodyStyling theme={theme} />
       <Head>
-        <title>{`${title} | Adenekan Wonderful | Codewonders`}</title>
+        <title>{`${title} | Sajeeb Das Shuvo`}</title>
         <meta
           name="msapplication-TileColor"
           content={`${theme ? '#000000' : '#FFFFFF'}`}
@@ -53,7 +54,7 @@ const Layout: React.FC<PropsWithChildren<{
       <Navbar />
       <BackLay title={title}>
         <h1 aria-hidden="true">
-          {title === 'Home' ? 'CW.' : title.concat('.')}
+          {title === 'Home' ? 'Sajeeb.' : title.concat('.')}
         </h1>
       </BackLay>
       <Cursor />
@@ -65,19 +66,22 @@ const Layout: React.FC<PropsWithChildren<{
 
 export const PageWrapper: React.FC<PropsWithChildren<{}> &
   React.HTMLAttributes<HTMLDivElement>> = ({
-  children,
-  className = '',
-  ...rest
-}) => {
-  return (
-    <section {...rest} id="main-content">
-      <div className={`container  ${className}`}>
-        <div className="row align-items-center justify-content-center">
-          <div className="col-md-10">{children}</div>
+    children,
+    className = '',
+    ...rest
+  }) => {
+    return (
+      <section {...rest} id="main-content">
+        <div className={`container  ${className}`}>
+          <div className='' style={{ display: "flex" }}>
+            <Sidebar />
+            <div className="row align-items-center justify-content-center">
+              <div className="col-md-10">{children}</div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-  );
-};
+      </section>
+    );
+  };
 
 export default Layout;
