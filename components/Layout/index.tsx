@@ -59,7 +59,14 @@ const Layout: React.FC<PropsWithChildren<{
       </BackLay>
       <Cursor />
       <ScoutBar actions={actions(setTheme)} brandColor="var(--cw)" />
-      {!show && <>{children}</>}
+      <div className='container' style={{ display: "flex" }}>
+        <div>
+          <Sidebar />
+        </div>
+        <div>
+          {!show && <>{children}</>}
+        </div>
+      </div>
     </Main>
   );
 };
@@ -72,12 +79,9 @@ export const PageWrapper: React.FC<PropsWithChildren<{}> &
   }) => {
     return (
       <section {...rest} id="main-content">
-        <div className={`container  ${className}`}>
-          <div className='' style={{ display: "flex" }}>
-            <Sidebar />
-            <div className="row align-items-center justify-content-center">
-              <div className="col-md-10">{children}</div>
-            </div>
+        <div className={`${className}`}>
+          <div className="row align-items-center justify-content-center">
+            <div className="col-md-10">{children}</div>
           </div>
         </div>
       </section>

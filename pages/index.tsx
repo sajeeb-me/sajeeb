@@ -68,7 +68,7 @@ const PageSection = styled.div`
   .intro__text {
     font-size: 2.275em;
     font-weight: 500;
-    margin: 2rem 0rem 1.5rem;
+    margin: 6rem 0rem 1.5rem;
     position: relative;
     text-transform: uppercase;
     letter-spacing: 9.9px;

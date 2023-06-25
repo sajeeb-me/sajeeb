@@ -19,7 +19,7 @@ const Contact = () => {
           <article>
             <p>
               Get in touch or shoot me an email directly on{' '}
-              <b>hellocodewonders@gmail.com</b>
+              <b>hellosdshuvo@gmail.com</b>
             </p>
           </article>
           <br />
@@ -118,9 +118,6 @@ const PageSection = styled.div`
     border-radius: 5px;
     padding: 15px 40px;
     margin-bottom: 3rem;
-  }
-  form {
-    width: 60%;
   }
   @media (max-width: 585px) {
     form {
