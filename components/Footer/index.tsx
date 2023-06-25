@@ -45,35 +45,8 @@ const FooterLink: React.FC<IFooterLink &
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/code_wonders"
-            aria-label="Go To Adenekan Wonderful Twitter Page"
-            title="Twitter Page"
-          >
-            <Twitter />
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.facebook.com/AdenekanWonderful"
-            aria-label="Go To Adenekan Wonderful Facebook Page"
-            title="Facebook Page"
-          >
-            <Facebook />
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://linkedin.com/in/codewonders"
-            aria-label="Go To Adenekan Wonderful Linkedin Page"
-            title="Linkedin Page"
-          >
-            <Linkedin />
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/adenekan41"
-            aria-label="Go To Adenekan Wonderful Github Page"
+            href="https://github.com/sdshuvo98"
+            aria-label="Go To Sajeeb Das Shuvo Github Page"
             title="Github Page"
           >
             <Github />
@@ -81,21 +54,48 @@ const FooterLink: React.FC<IFooterLink &
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://dribbble.com/codewonders"
-            aria-label="Go To Adenekan Wonderful Dribble Page"
-            title="Dribbble Page"
+            href="https://linkedin.com/in/sdshuvo"
+            aria-label="Go To Sajeeb Das Shuvo Linkedin Page"
+            title="Linkedin Page"
           >
-            <Dribble />
+            <Linkedin />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://instagram.com/codewonders"
-            aria-label="Go To Adenekan Wonderful Instagram Page"
+            href="https://twitter.com/sdshuvo98"
+            aria-label="Go To Sajeeb Das Shuvo Twitter Page"
+            title="Twitter Page"
+          >
+            <Twitter />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/sdshuvo9898"
+            aria-label="Go To Sajeeb Das Shuvo Facebook Page"
+            title="Facebook Page"
+          >
+            <Facebook />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://instagram.com/sdshuvo9898"
+            aria-label="Go To Sajeeb Das Shuvo Instagram Page"
             title="Instagram Page"
           >
             <Instagram />
           </a>
+          {/* <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://dribbble.com/codewonders"
+              aria-label="Go To Sajeeb Das Shuvo Dribble Page"
+              title="Dribbble Page"
+            >
+              <Dribble />
+            </a> */}
         </SocialMedia>
       </>
     );
