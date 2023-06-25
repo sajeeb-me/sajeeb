@@ -21,6 +21,7 @@ const FontToken = css`
 const LightTheme = css`
   :root {
     --bg: #fffdfc;
+    --bg-light: #020a130b;
     --button-index: #f4f1ee;
     --cw: #000;
     --invert: 0;
@@ -46,6 +47,7 @@ const LightTheme = css`
 const DarkTheme = css`
   :root {
     --bg: #020a13;
+    --bg-light: #fffdfc09;
     --invert: 1;
     --theme-amount: 1;
     --cw: #e1e1e1;
@@ -384,6 +386,7 @@ export const Header = styled.header`
 `;
 
 export const SocialMedia = styled.div`
+  display: none;
   background: transparent;
   padding: 1rem 0;
   a {
@@ -509,11 +512,8 @@ export const Main = styled.main`
   min-height: 100vh; */
 `;
 
-export const SidebarStyle = styled.header`
+export const SidebarStyle = styled.div`
 font-weight: 500;
-position:sticky;
-top:0;
-
 .sidebar-container{
   height: 90vh;
   display: flex;
@@ -580,12 +580,12 @@ transition: all .5s ease;
       position: relative;
       overflow: hidden;
 
-      @media(max-width: 992px){
-        display: block;    
-        text-align: center;
-        width: fit-content;
-        margin: 3rem auto;
-      }
+      // @media(max-width: 992px){
+      //   display: block;    
+      //   text-align: center;
+      //   width: fit-content;
+      //   margin: 3rem auto;
+      // }
       
       &:before {
         content: "";
@@ -632,10 +632,6 @@ transition: all .5s ease;
       bottom: 0;
       z-index: 99;
       height: 84vh;
-    }
-
-    @media(max-width : 991px ) {
-      display:none;
     }
     
     @media( max-width : 762px ) {
@@ -703,21 +699,25 @@ transition: all .5s ease;
 `;
 
 export const SidebarSocialMedia = styled.div`
-  position:sticky;
-  top:90vh;
-  background: transparent;
-  padding: 1rem 0;
+  background: var(--bg-light);
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   a {
     transition: all 1s ease;
     cursor: pointer;
-    padding: 0 12px;
-    &:first-child {
-      padding-left: 0;
-    }
+    padding: .8rem .8rem;
   }
+
+  a:hover{
+    background: var(--gray);
+  }
+
   svg {
     cursor: pointer;
-    height: 15px;
+    height: 16px;
     fill: var(--article-color);
     transition: all 1s ease;
     &:hover {
@@ -725,20 +725,5 @@ export const SidebarSocialMedia = styled.div`
       stroke-width: 1px;
       stroke-opacity: 0.8;
     }
-  }
-  @media (max-width: 992px) {
-    position: fixed;
-    backdrop-filter: blur(6px) saturate(2.5);
-    background: var(--gray-alpha) !important;
-    width: 100% !important;
-    display: flex;
-    padding: 0 !important;
-    right: 0;
-    z-index: 999;
-    flex-direction: row !important;
-    height: 60px !important;
-    bottom: 0px !important;
-    align-items: center;
-    justify-content: space-evenly;
   }
 `;

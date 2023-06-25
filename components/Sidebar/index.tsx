@@ -5,11 +5,22 @@ import React, { useContext } from 'react';
 
 /* -------------------------- Internal Dependencies ------------------------- */
 import { SidebarStyle } from '../Layout/style';
+import { SidebarSocialMedia } from '../Layout/style';
 import Link from '../ActiveLink';
 import AppContext from '../Utils/context';
 
 /* ---------------------------- Image Dependency ---------------------------- */
 import { Logo, Moon, Icon } from '../Icons';
+import {
+    IconRight,
+    Twitter,
+    Facebook,
+    Linkedin,
+    Github,
+    Instagram,
+    Dribble,
+} from '../Icons';
+import styled from 'styled-components';
 
 
 const Sidebar = () => {
@@ -18,7 +29,63 @@ const Sidebar = () => {
     );
 
     return (
-        <>
+        <SidebarComponent>
+            <SidebarSocialMedia>
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/sdshuvo98"
+                    aria-label="Go To Sajeeb Das Shuvo Github Page"
+                    title="Github Page"
+                >
+                    <Github />
+                </a>
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://linkedin.com/in/sdshuvo"
+                    aria-label="Go To Sajeeb Das Shuvo Linkedin Page"
+                    title="Linkedin Page"
+                >
+                    <Linkedin />
+                </a>
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://twitter.com/sdshuvo98"
+                    aria-label="Go To Sajeeb Das Shuvo Twitter Page"
+                    title="Twitter Page"
+                >
+                    <Twitter />
+                </a>
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/sdshuvo9898"
+                    aria-label="Go To Sajeeb Das Shuvo Facebook Page"
+                    title="Facebook Page"
+                >
+                    <Facebook />
+                </a>
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://instagram.com/sdshuvo9898"
+                    aria-label="Go To Sajeeb Das Shuvo Instagram Page"
+                    title="Instagram Page"
+                >
+                    <Instagram />
+                </a>
+                {/* <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://dribbble.com/codewonders"
+              aria-label="Go To Sajeeb Das Shuvo Dribble Page"
+              title="Dribbble Page"
+            >
+              <Dribble />
+            </a> */}
+            </SidebarSocialMedia>
             <SidebarStyle>
                 <nav className="navbar-expand-lg">
                     <div className="container sidebar-container">
@@ -103,8 +170,18 @@ const Sidebar = () => {
                     </div>
                 </nav>
             </SidebarStyle>
-        </>
+        </SidebarComponent>
     );
 };
+
+const SidebarComponent = styled.div`
+display: flex;
+position: sticky;
+top: 0;
+
+@media(max-width : 991px ) {
+    display:none;
+  }
+`
 
 export default Sidebar;
