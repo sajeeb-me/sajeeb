@@ -61,14 +61,14 @@ const Home = () => {
 };
 
 const PageSection = styled.div`
-  min-height: calc(100vh - 39vh);
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   .intro__text {
     font-size: 2.275em;
     font-weight: 500;
-    margin: 6rem 0rem 1.5rem;
+    margin: 4rem 0rem 1.5rem;
     position: relative;
     text-transform: uppercase;
     letter-spacing: 9.9px;
