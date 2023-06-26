@@ -155,6 +155,19 @@ const Sidebar = () => {
                                         Contact
                                     </Link>
                                 </li>
+                                <li className="nav-item hover__bottom">
+                                    <Link
+                                        href="/resume"
+                                        activeClassName="is-active"
+                                        className="nav-link"
+                                        id="cardHover"
+                                        onClick={closeShow}
+                                        aria-label="Go To Contacts Page"
+                                        title="Contact"
+                                    >
+                                        My CV
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
 
