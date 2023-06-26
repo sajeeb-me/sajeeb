@@ -19,7 +19,11 @@ interface ISideBarModal {
     title: string;
     description?: string;
     technologies?: string[];
-    github?: string;
+    github?: {
+      main?: string;
+      clientSide?: string;
+      serverSide?: string;
+    };
     imageUrl?: string;
     about?: string;
     link?: string;
@@ -28,7 +32,7 @@ interface ISideBarModal {
 /* ------------------------ SideBarModal defaultprops ----------------------- */
 const defaultProps: ISideBarModal = {
   show: false,
-  closeShow: () => {},
+  closeShow: () => { },
   size: 'md',
   overlayColor: 'rgba(0, 0, 0, 0.8)',
 };
@@ -122,15 +126,42 @@ const SideBarModal: React.FC<ISideBarModal> = ({
                       <h4>
                         <Github /> Github
                       </h4>
-                      <p>
-                        <a
-                          href={data.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {data.github}
-                        </a>
-                      </p>
+                      {
+                        data.github.main
+                          ?
+                          <p>
+                            <a
+                              href={data.github.main}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {data.github.main}
+                            </a>
+                          </p>
+                          :
+                          <div>
+                            <p>
+                              Client Side:{' '}
+                              <a
+                                href={data.github.clientSide}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {data.github.clientSide}
+                              </a>
+                            </p>
+                            <p>
+                              Server Side:{' '}
+                              <a
+                                href={data.github.serverSide}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {data.github.serverSide}
+                              </a>
+                            </p>
+                          </div>
+                      }
                     </>
                   )}
                 </div>
