@@ -17,19 +17,19 @@ import { ProjectsContext } from '../components/Utils/context';
 const Projects = () => {
   const projectsData = useContext(ProjectsContext);
   return (
-    <Layout title="Project">
+    <Layout title="Projects">
       <PageSection>
         <PageWrapper>
-          <h1 className="intro__text">Projects.</h1> <br />
+          <h1 className="intro__text">My Projects.</h1> <br />
           <Tabs>
-            <TabItems label="All">
+            <TabItems label="Projects">
               <MansoryLayout>
                 {projectsData.map((item, index) => (
                   <MansoryItem key={index} item={item} />
                 ))}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Projects">
+            {/* <TabItems label="Projects">
               <MansoryLayout>
                 {projectsData.map(
                   (item, index) =>
@@ -58,8 +58,8 @@ const Projects = () => {
                     )
                 )}
               </MansoryLayout>
-            </TabItems>
-            <TabItems label="Designs" href="https://dribbble.com/codewonders" />
+            </TabItems> */}
+            <TabItems label="Designs" href="https://dribbble.com/sdshuvo9898" />
           </Tabs>
         </PageWrapper>
       </PageSection>
