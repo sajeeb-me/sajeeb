@@ -13,7 +13,7 @@ import FooterLink from '../components/Footer';
 
 const Resume = () => {
   const resumeData =
-    'https://www.canva.com/design/DAEEkidwA2Q/view?utm_content=DAEEkidwA2Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink';
+    'https://www.canva.com/design/DAFnDlg831U/h74Nx-lPhLjoPmQ0ALn1BQ/edit?utm_content=DAFnDlg831U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
 
   const previewData = `${resumeData.substr(
     0,
@@ -25,7 +25,7 @@ const Resume = () => {
       <PageWrapper>
         <PageSection>
           <article>
-            <h1 className="intro__text">Resumé.</h1>
+            <h1 className="intro__text">My CV.</h1>
             <p>
               Reach out to me via my{' '}
               <b>
@@ -34,10 +34,10 @@ const Resume = () => {
               .{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_LINK}/view?usp=sharing`}
+                  href={`https://drive.google.com/file/d/1Zo4-V2unrVVEsQFGKbyeT-wmRLca5ZH0/view?usp=sharing`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Go to Resumé Page"
+                  aria-label="Go to CV Page"
                 >
                   view
                 </a>
@@ -45,15 +45,15 @@ const Resume = () => {
               or{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_LINK}/view?usp=sharing`}
+                  href={`https://drive.google.com/file/d/1Zo4-V2unrVVEsQFGKbyeT-wmRLca5ZH0/view?usp=sharing`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Go to Resumé Page"
+                  aria-label="Go to CV Page"
                 >
                   download
                 </a>
               </b>{' '}
-              the resume{' '}
+              the CV{' '}
             </p>
           </article>
           <br />
@@ -62,7 +62,7 @@ const Resume = () => {
             allowFullScreen
             width="740"
             height="780"
-            title="Adenekan Wonderful Resumé"
+            title="Sajeeb Das Shuvo CV"
           />
         </PageSection>
         <br />

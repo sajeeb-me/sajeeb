@@ -66,7 +66,7 @@ const Projects = () => {
 
       <PageWrapper>
         <FooterLink goto="/resume" className="mt-3 mb-5">
-          Lets Go To My Resume.
+          Lets Go To My CV.
         </FooterLink>
         <br />
       </PageWrapper>
