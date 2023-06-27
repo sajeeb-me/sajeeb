@@ -1,79 +1,72 @@
 const PROJECTS_DATA = [
   {
     title: 'AutoMent',
-    description: 'Full-stack responsive project for Car Dealers to manage stocks',
-    about:
-      'Landing page designed for showcasing and updating new inventories. Developed a User portal for managing, updating, and adding Inventories. Stored data at MongoDB. In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer. In Blogs section you will find the answers of 4 Questions',
+    description: 'Full-stack responsive application for Car Dealers to manage stocks',
+    about: 'Landing page designed for showcasing and updating new inventories. Developed a User portal for managing, updating, and adding Inventories. Stored data at MongoDB. In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer. In Blogs section you will find the answers of 4 Questions',
     link: 'https://automent-4fd77.web.app',
-    imageUrl: 'https://i.ibb.co/DrByQWH/automent.gif',
+    imageUrl: 'https://i.ibb.co/k3QPf7Q/automent-min.gif',
     github: {
       clientSide: "https://github.com/sdshuvo98/automent-client",
       serverSide: "https://github.com/sdshuvo98/automent-server"
     },
     type: ['project', 'open-source', 'tools'],
-    technologies: ['React', 'Express', 'MongoDB', 'Firebase', 'JWT', 'Tailwind CSS', 'React Hook Form'],
+    technologies: ['React', 'Express', 'MongoDB', 'JWT', 'Firebase', 'Tailwind CSS', 'React Hook Form'],
   },
   {
     title: 'CoinKinbo',
-    description: 'Full-Stack mobile responsive project for Cryptocurrency Sellers',
+    description: 'Full-Stack mobile responsive website for Cryptocurrency Sellers',
     about: 'Successfully implemented card payment method and ContextAPI, resulting in a streamlined user experience and improved data security. Developed admin portal for efficient management of orders and user roles. Admin credentials are provided in the README.me file on the Client Site Github link. Created a user portal with features for profile management, order tracking, and secure payments. All data is stored securely in MongoDB, ensuring scalability and reliability for the platform.',
     link: 'https://coinkinbo-bd.web.app',
     github: {
       clientSide: "https://github.com/sdshuvo98/CoinKinbo.com",
       serverSide: "https://github.com/sdshuvo98/CoinKinbo.server"
     },
-    imageUrl: 'https://i.ibb.co/RYfRsmj/coin-kinbo.gif',
+    imageUrl: 'https://i.ibb.co/NFhMJ1G/coin-kinbo-min.gif',
     type: ['project', 'open-source', 'tools'],
     technologies: ["React", 'Node', 'MongoDB', 'Firebase', 'Stripe', 'ContextAPI', 'React Query'],
   },
   {
-    title: 'Shoprrr',
-    description: 'An E-commerce Application For Buying Cotton Products.',
-    github: {
-      clientSide: "https://github.com/sdshuvo98/automent-client",
-      serverSide: "https://github.com/sdshuvo98/automent-server"
-    },
-    about:
-      'Shoprrr is an e-commerce platform catered towards giving the best and fast experience for customers to buy cotton products, we call it a frictionless process from start to finish.',
-    link: 'https://shoprrr.netlify.com',
-    imageUrl: 'https://i.ibb.co/jZ8LXSw/carts.gif',
-    type: ['project'],
-    technologies: ['React', 'Redux Saga', 'Javascript', 'Firebase'],
-  },
-  {
-    title: '54gene',
-    description: 'Discover Yourself Through Your Genes.',
-    about:
-      'Africans house the most genetically diverse DNA in comparison to all other world populations combined. In gathering insights from the African genome, we could power medical breakthroughs and discoveries that will change the entire landscape of healthcare, globally. We fully recognize the tremendous potential that this presents. Presently, most genomic data used for development research is from Europe, the United Kingdom, and North America with African genomic data only accounting for less than 3%. This is where we come in. We exist to close this gap by increasing access to highly curated genomic data from African populations.',
-    link: 'https://54gene.com',
-    github: { main: 'https://github.com/adenekan41/scoutbar' },
-    imageUrl:
-      'https://i.ibb.co/ncHZ40s/traveeel.gif',
+    title: 'Traveeel',
+    description: 'Enjoy your travel with Traveeel.',
+    about: 'In Home section you will get the overview about our site. Your will get Our packages section here and from that section you can select the best package for you. In Our Packages section you wil find a Book now button which will take you to the Checkout page. And then you can confirm your Booking From there. The Checkout section is Protected route. So, you have to be Logged in first otherwise it will take you to Login route first. In Blogs section you will find the answers of your 3 Questions. In About section you will get the information about me.',
+    link: 'https://traveeel-7ce5d.web.app',
+    github: { main: 'https://github.com/sdshuvo98/traveeel' },
+    imageUrl: 'https://i.ibb.co/mXyBKtb/traveeel-min.gif',
     type: ['others', 'project'],
-    technologies: ['Vuejs', 'Javascript', 'Vuex'],
+    technologies: ['React', 'Javascript', 'Tailwind'],
   },
   {
-    title: 'Piggment Chrome Extension',
-    github: { main: 'https://github.com/adenekan41/scoutbar' },
-    description: 'The gradient you have always wanted in a new tab',
-    about:
-      'Piggment is a curated collection of amazingly colored gradients for designers, developers, and smart creators over the world. now you can generate, explore, and save, easy CSS cross-browser gradient codes all in a new tab.',
-    link:
-      'https://chrome.google.com/webstore/detail/piggment-crafted-to-inspi/eifkhhlfjplpakoddkndkgjhfajnhffg',
-    imageUrl: 'https://i.ibb.co/9y3vXFb/positive-energy.gif',
+    title: 'Carts',
+    description: 'Mobile responsive website for Car Parts Manufacturers',
+    about: 'Implemented card payment method, email notification, and MongoDB data storage. Developed admin portal to manage orders and products, add products, and grant admin access. Created a user portal for managing profiles, orders, and payments. Admin credentials are provided in the README.md file on the client-side GitHub link.',
+    github: {
+      clientSide: "https://github.com/sdshuvo98/carts-client",
+      serverSide: "https://github.com/sdshuvo98/carts-server"
+    },
+    link: 'https://carts-68435.web.app',
+    imageUrl: 'https://i.ibb.co/8sKwLq0/carts-min.gif',
+    type: ['project'],
+    technologies: ['React', 'Express', 'MongoDB', 'Stripe', 'Firebase', 'Mailgun'],
+  },
+  {
+    title: 'Positive Energy',
+    github: { main: 'https://github.com/sdshuvo98/positive-energy' },
+    description: 'For all Soft Drinks lover who always love to check a product before having it.',
+    about: 'In Home section you will find product picture and title. Then after scrolling this page you will find our customer reviews. In Reviews section you will find what our customer say about our Product. In Dashboard you will find the 3 charts where our Last 6 months Summary explained. In Blog section you will find the answers of your 3 Questions.',
+    link: 'https://positive-energy-review.netlify.app',
+    imageUrl: 'https://i.ibb.co/B2DyhKj/positive-energy-min.gif',
     type: ['project', 'open-source', 'tools'],
     technologies: ['React', 'Context API', 'Javascript'],
   },
   {
-    title: 'Fast',
-    description: 'The fastest way to buy the things you love.',
-    about:
-      "One click. No passwords. The world's fastest checkout. Forget passwords. Skip long entry forms. Shop online and securely check out with a single click. It’s safe, easy, and yep, fast.",
-    link: 'https://fastasf.netlify.app/',
-    github: { main: 'https://github.com/adenekan41/scoutbar' },
-    imageUrl: 'https://i.ibb.co/3cxch56/passionate-traveller.gif',
+    title: 'Passionate Traveler',
+    description: 'Passionate Travelers who are always Confused which place will be the Best option to Travel.',
+    about: "In navbar you will find our Logo in left side and options in right side. In Body section you will see the top selected places of Countries available for Travel on the left side. You will find a Button to select places.  And on Right side you will find your selected Places list on Wish List.  On this section you can get the best Travel place by clicking BEST 1 TO TRAVEL button.  Note: you can choose max 4 countries.",
+    link: 'https://passionate-traveller.netlify.app',
+    github: { main: 'https://github.com/sdshuvo98/passionate-traveller' },
+    imageUrl: 'https://i.ibb.co/B2C2sK9/passionate-traveller-min.gif',
     type: ['others', 'project'],
-    technologies: ['React', 'TypeScript', 'Javascript', 'Contentful'],
+    technologies: ['React', 'Javascript'],
   },
 
   // {
