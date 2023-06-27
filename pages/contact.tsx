@@ -25,7 +25,7 @@ const Contact = () => {
           <br />
           <form
             method="POST"
-            action="https://formspree.io/adenekanwonderful41@gmail.com"
+            action="https://formspree.io/f/mjvqbooe"
           >
             <div className="fields">
               <div className="field half">
