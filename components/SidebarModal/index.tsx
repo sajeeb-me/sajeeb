@@ -19,11 +19,7 @@ interface ISideBarModal {
     title: string;
     description?: string;
     technologies?: string[];
-    github?: {
-      main?: string;
-      clientSide?: string;
-      serverSide?: string;
-    };
+    github?: string;
     imageUrl?: string;
     about?: string;
     link?: string;
@@ -126,7 +122,16 @@ const SideBarModal: React.FC<ISideBarModal> = ({
                       <h4>
                         <Github /> Github
                       </h4>
-                      {
+                      <p>
+                        <a
+                          href={data.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {data.github}
+                        </a>
+                      </p>
+                      {/* {
                         data.github.main
                           ?
                           <p>
@@ -161,7 +166,7 @@ const SideBarModal: React.FC<ISideBarModal> = ({
                               </a>
                             </p>
                           </div>
-                      }
+                      } */}
                     </>
                   )}
                 </div>
