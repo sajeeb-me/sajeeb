@@ -27,10 +27,47 @@ const About = () => {
             <ul className="timeline">
               <li className="mt-2">
                 <a
+                  href={`https://drive.google.com/file/d/1Zo4-V2unrVVEsQFGKbyeT-wmRLca5ZH0/view?usp=sharing`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Go to CV Page"
+                >
+                  Key Skills{' '}
+                  <small>
+                    <Date />
+                  </small>
+                </a>
+                <a
+                  href={`https://drive.google.com/file/d/1Zo4-V2unrVVEsQFGKbyeT-wmRLca5ZH0/view?usp=sharing`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Go to CV Page"
+                  className="float-right"
+                >
+                  View my CV
+                </a>
+                <div>
+                  <p>
+                    <b>Client-Side : </b>React Native, NextJs, TypeScript, React, Redux, JavaScript, Sass, Shopify, Bootstrap, Tailwind CSS, CSS3, HTML5
+                  </p>
+                  <p>
+                    <b>Server-Side : </b>NodeJs, ExpressJs, Mongoose, MongoDB, Strapi, Liquid
+                  </p>
+                  <p>
+                    <b>Development & Operations : </b>Git, Chrome dev tool, Scrum, Agile
+                  </p>
+                  <p>
+                    <b>Interpersonal skills : </b>User Experience, UI design, Graphic Design, Figma, PowerPoint
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Github Link"
-                  href="https://github.com/adenekan41"
+                  href="https://github.com/sdshuvo98"
                 >
                   Engineering{' '}
                   <small>
@@ -42,26 +79,17 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Github Link"
                   id="cardHover"
-                  href="https://github.com/adenekan41"
+                  href="https://github.com/sdshuvo98"
                   className="float-right"
                 >
                   View Github
                 </a>
                 <p>
-                  The power of first impressions cannot be underestimated, and
-                  the gateway to capitalizing on them lies in exceptional
-                  website design. An outstanding website transcends mere
-                  aesthetics and extends its influence to encompass seamless
-                  functionality and user-friendly navigation. Drawing upon my
-                  expertise as a seasoned programmer, I possess the unique
-                  ability to tackle intricate technical challenges while
-                  crafting websites that exude sleekness and visual allure.
-                  Moreover, my extensive knowledge of recognized technical
-                  standards is complemented by my proficiency in modern building
-                  practices, ensuring that every aspect of your website is
-                  finely tuned to perfection.
+                  The importance of making a good first impression cannot be overstated, and a well-designed website is the key to maximising it. An exceptional website goes beyond simple looks, expanding its influence to incorporate smooth functionality and user-friendly navigation. I have the rare ability to handle complex technological issues while creating websites that exude elegance and visual charm, drawing on my experience as an experienced programmer.
+                  Furthermore, every element of your website will be flawlessly tuned thanks to my in-depth understanding of acknowledged technical standards and my competence in contemporary construction techniques.
                 </p>
               </li>
+
               <li>
                 <Link href="/projects" aria-label="Open Products Page">
                   Product{' '}
@@ -78,15 +106,7 @@ const About = () => {
                   View Products
                 </Link>
                 <p>
-                  While I may not fit the conventional mold of a product
-                  manager, my diverse skill set in research, product design, and
-                  product coordination empowers me to drive the growth of a
-                  product from its inception. As an exceptional analytical
-                  thinker, I possess the ability to uphold the product's vision
-                  throughout its entire journey, effectively bridging the
-                  technical and product aspects. By leveraging my expertise, I
-                  can navigate the path from 0 to 1, ensuring the product's
-                  success at every stage.
+                  Although I may not match the traditional definition of a product manager, I am equipped to drive a product's growth from its origin thanks to my wide skill set in research, product design, and product coordination. I have the aptitude to uphold the product's vision throughout its whole lifecycle because I am a superb analytical thinker who can successfully bridge the technical and product aspects. I can successfully travel the journey from 0 to 1, assuring the product's success at every level, by utilising my knowledge.
                 </p>
               </li>
 
@@ -95,7 +115,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
-                  href="https://dribbble.com/codewonders"
+                  href="https://dribbble.com/sdshuvo9898"
                 >
                   Design{' '}
                   <small>
@@ -107,27 +127,20 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
                   id="cardHover"
-                  href="https://dribbble.com/codewonders"
+                  href="https://dribbble.com/sdshuvo9898"
                   className="float-right"
                 >
                   View Dribbble
                 </a>
                 <p>
-                  Despite not fitting the typical designer stereotype, my
-                  exceptional visual abilities enable me to excel as a
-                  presenter, effectively conveying design concepts to
-                  stakeholders and design teams. I possess a remarkable aptitude
-                  for conceptualization, allowing me to envision and bring forth
-                  stunning creations. Additionally, my expertise lies in
-                  fine-tuning stylesheets and crafting seamless user experiences
-                  that flow effortlessly.
+                  My great visual skills allow me to flourish as a presenter, effectively communicating design concepts to stakeholders and design teams, despite the fact that I don't fit the usual designer stereotype. I have an exceptional capacity for conceptualization, which enables me to imagine and produce beautiful masterpieces. Additionally, I have a lot of experience optimising stylesheets and creating user interfaces that flow naturally.
                 </p>
               </li>
             </ul>
           </article>
         </PageWrapper>
 
-        <PageWrapper
+        {/* <PageWrapper
           className="mb-5"
           aria-label="You are now in my musical playlist section"
         >
@@ -375,7 +388,7 @@ const About = () => {
               </li>
             </ul>
           </article>
-        </PageWrapper>
+        </PageWrapper> */}
       </PageSection>
 
       <PageWrapper>

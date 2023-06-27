@@ -129,7 +129,7 @@ const Sidebar = () => {
                                         Projects
                                     </Link>
                                 </li>
-                                {/* <li className="nav-item hover__bottom">
+                                <li className="nav-item hover__bottom">
                                     <Link
                                         href="/about"
                                         activeClassName="is-active"
@@ -141,7 +141,7 @@ const Sidebar = () => {
                                     >
                                         About
                                     </Link>
-                                </li> */}
+                                </li>
                                 <li className="nav-item hover__bottom">
                                     <Link
                                         href="/contact"
