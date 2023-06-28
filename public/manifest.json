@@ -1,7 +1,8 @@
 {
-  "name": "Adenekan Wonderful",
-  "short_name": "Codewonders",
-  "icons": [{
+  "name": "Sajeeb Das Shuvo",
+  "short_name": "Sajeeb",
+  "icons": [
+    {
       "src": "/icons/android-icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
