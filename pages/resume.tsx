@@ -21,7 +21,7 @@ const Resume = () => {
   )}view?embed`;
 
   return (
-    <Layout title="Resume">
+    <Layout title="CV">
       <PageWrapper>
         <PageSection>
           <article>

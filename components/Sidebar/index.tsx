@@ -162,8 +162,8 @@ const Sidebar = () => {
                                         className="nav-link"
                                         id="cardHover"
                                         onClick={closeShow}
-                                        aria-label="Go To Contacts Page"
-                                        title="Contact"
+                                        aria-label="Go To CV Page"
+                                        title="CV"
                                     >
                                         My CV
                                     </Link>
