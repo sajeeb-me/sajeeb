@@ -71,10 +71,11 @@ const PageSection = styled.div`
     margin: 4rem 0rem 1.5rem;
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 9.9px;
+    letter-spacing: 9px;
 
-    &::before,
-    &::after {
+    &::before
+    // &::after 
+    {
       content: attr(data-text);
       position: absolute;
       top: 0;
