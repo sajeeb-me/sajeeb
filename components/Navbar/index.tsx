@@ -68,19 +68,6 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item hover__bottom">
                   <Link
-                    href="/about"
-                    activeClassName="is-active"
-                    className="nav-link"
-                    id="cardHover"
-                    onClick={closeShow}
-                    aria-label="Go To About Page"
-                    title="About"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li className="nav-item hover__bottom">
-                  <Link
                     href="/projects"
                     activeClassName="is-active"
                     className="nav-link"
@@ -94,6 +81,19 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item hover__bottom">
                   <Link
+                    href="/about"
+                    activeClassName="is-active"
+                    className="nav-link"
+                    id="cardHover"
+                    onClick={closeShow}
+                    aria-label="Go To About Page"
+                    title="About"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li className="nav-item hover__bottom">
+                  <Link
                     href="/contact"
                     activeClassName="is-active"
                     className="nav-link"
@@ -103,6 +103,19 @@ const Navbar = () => {
                     title="Contact"
                   >
                     Contact
+                  </Link>
+                </li>
+                <li className="nav-item hover__bottom">
+                  <Link
+                    href="/contact"
+                    activeClassName="is-active"
+                    className="nav-link"
+                    id="cardHover"
+                    onClick={closeShow}
+                    aria-label="Go To Contacts Page"
+                    title="Contact"
+                  >
+                    My CV
                   </Link>
                 </li>
                 <li className="nav-item pl-md-3">
