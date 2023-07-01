@@ -170,16 +170,16 @@ const CursorStyle = styled.div<CursorStyleProps>`
       background-color: var(--gray);
     }
 
-    .cursor-dot-outline {
-      width: 85px;
-      height: 85px;
-      border: 1px solid var(--gray);
-      box-shadow: inset 0 0 0px 0.5px var(--light-gray);
-    }
+    // .cursor-dot-outline {
+    //   width: 85px;
+    //   height: 85px;
+    //   border: 1px solid var(--gray);
+    //   box-shadow: inset 0 0 0px 0.5px var(--light-gray);
+    // }
 
     ${({ cursorActive }) =>
-      cursorActive
-        ? css`
+    cursorActive
+      ? css`
             .cursor-dot {
               transform: translate(-50%, -50%) scale(2.2);
               background: hsla(0, 0%, 100%, 0.3);
@@ -191,7 +191,7 @@ const CursorStyle = styled.div<CursorStyleProps>`
               transform: translate(-50%, -50%) scale(0);
             }
           `
-        : css`
+      : css`
             .cursor-dot {
               transform: translate(-50%, -50%) scale(1);
             }
