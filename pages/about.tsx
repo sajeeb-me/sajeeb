@@ -51,7 +51,7 @@ const About = () => {
                     <b>Client-Side : </b>React Native, NextJs, TypeScript, React, Redux, JavaScript, Sass, Shopify, Bootstrap, Tailwind CSS, CSS3, HTML5
                   </p>
                   <p>
-                    <b>Server-Side : </b>NodeJs, ExpressJs, Mongoose, MongoDB, Strapi, Liquid
+                    <b>Server-Side : </b>NodeJs, ExpressJs, Python, Mongoose, MongoDB, MySQL, Strapi, Liquid
                   </p>
                   <p>
                     <b>Development & Operations : </b>Git, Chrome dev tool, Scrum, Agile
