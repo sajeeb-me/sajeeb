@@ -18,6 +18,8 @@ https://i.ibb.co/B2C2sK9/passionate-traveller-min.gif
 
 image:
 https://i.ibb.co/2YJYQzY/Traveeel.jpg
+https://i.ibb.co/smqVzrG/Passionate-Traveler.jpg
+https://i.ibb.co/wW9HK6t/Positive-Energy.jpg
  */
 
 const PROJECTS_DATA = [
@@ -81,7 +83,7 @@ const PROJECTS_DATA = [
     description: 'For all Soft Drinks lover who always love to check a product before having it.',
     about: 'In Home section you will find product picture and title. Then after scrolling this page you will find our customer reviews. In Reviews section you will find what our customer say about our Product. In Dashboard you will find the 3 charts where our Last 6 months Summary explained. In Blog section you will find the answers of your 3 Questions.',
     link: 'https://positive-energy-review.netlify.app',
-    imageUrl: 'https://i.ibb.co/6WHm54V/positive-energy.gif',
+    imageUrl: 'https://i.ibb.co/wW9HK6t/Positive-Energy.jpg',
     type: ['project', 'open-source', 'tools'],
     technologies: ['React', 'Context API', 'Javascript'],
   },
@@ -92,7 +94,7 @@ const PROJECTS_DATA = [
     link: 'https://passionate-traveller.netlify.app',
     github: "https://github.com/sdshuvo98/passionate-traveller",
     // github: { main: 'https://github.com/sdshuvo98/passionate-traveller' },
-    imageUrl: 'https://i.ibb.co/r5K1hJk/passionate-traveller.gif',
+    imageUrl: 'https://i.ibb.co/smqVzrG/Passionate-Traveler.jpg',
     type: ['others', 'project'],
     technologies: ['React', 'Javascript'],
   },
