@@ -14,6 +14,10 @@ https://i.ibb.co/mXyBKtb/traveeel-min.gif
 https://i.ibb.co/8sKwLq0/carts-min.gif
 https://i.ibb.co/B2DyhKj/positive-energy-min.gif
 https://i.ibb.co/B2C2sK9/passionate-traveller-min.gif
+
+
+image:
+https://i.ibb.co/2YJYQzY/Traveeel.jpg
  */
 
 const PROJECTS_DATA = [
@@ -52,7 +56,7 @@ const PROJECTS_DATA = [
     link: 'https://traveeel-7ce5d.web.app',
     github: "https://github.com/sdshuvo98/traveeel",
     // github: { main: 'https://github.com/sdshuvo98/traveeel' },
-    imageUrl: 'https://i.ibb.co/XpsCqKc/traveeel.gif',
+    imageUrl: 'https://i.ibb.co/2YJYQzY/Traveeel.jpg',
     type: ['others', 'project'],
     technologies: ['React', 'Javascript', 'Tailwind'],
   },
