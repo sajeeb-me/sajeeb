@@ -6,7 +6,7 @@ import {
   createScoutPage,
 } from 'scoutbar';
 import ARTICLE_DATA from '../AppData/articles';
-import LENS_DATA from '../AppData/lens';
+// import LENS_DATA from '../AppData/lens';
 import PROJECTS_DATA from '../AppData/projects';
 
 export const actions = (theme: () => void) => [
@@ -40,14 +40,14 @@ export const actions = (theme: () => void) => [
         label: "Sajeeb Das Shuvo's Reads",
         href: '/about#reads',
       }),
-      createScoutAction({
-        label: 'Playlist',
-        href: '/about#playlist',
-      }),
-      createScoutAction({
-        label: "Sajeeb's Lens",
-        href: '/about#lens',
-      }),
+      // createScoutAction({
+      //   label: 'Playlist',
+      //   href: '/about#playlist',
+      // }),
+      // createScoutAction({
+      //   label: "Sajeeb's Lens",
+      //   href: '/about#lens',
+      // }),
     ],
   }),
 
@@ -66,17 +66,17 @@ export const actions = (theme: () => void) => [
           })
         ),
       }),
-      createScoutPage({
-        label: 'Lens',
-        children: LENS_DATA.map((project) =>
-          createScoutAction({
-            label: project.title,
-            href: project.link,
-            description: project.description,
-            icon: project.imageUrl,
-          })
-        ),
-      }),
+      // createScoutPage({
+      //   label: 'Lens',
+      //   children: LENS_DATA.map((project) =>
+      //     createScoutAction({
+      //       label: project.title,
+      //       href: project.link,
+      //       description: project.description,
+      //       icon: project.imageUrl,
+      //     })
+      //   ),
+      // }),
       createScoutPage({
         label: 'Articles',
         children: ARTICLE_DATA.map((project) =>
