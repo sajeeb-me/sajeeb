@@ -1,6 +1,16 @@
 const ARTICLE_DATA = [
 
   {
+    title: 'Getting Started with TypeScript: Benefits and Best Practices for JavaScript Developers',
+    description:
+      'TypeScript has become a strong and well-liked language among JavaScript developers...',
+    link:
+      'https://dev.to/sajeeb_me/getting-started-with-typescript-benefits-and-best-practices-for-javascript-developers-3p8g',
+    imageUrl:
+      'https://i.ibb.co/bKvz4qY/Getting-Started-with-Type-Script-upload.jpg',
+    type: ['article'],
+  },
+  {
     title: 'Top 10 skills that Full Stack Engineers in 2023 must possess',
     description:
       'Full Stack Engineers are in high demand as we move into 2023, making this a lucrative...',
