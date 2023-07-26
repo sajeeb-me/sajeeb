@@ -1,6 +1,15 @@
 const ARTICLE_DATA = [
 
   {
+    title: 'Top 10 skills that Full Stack Engineers in 2023 must possess',
+    description:
+      'Full Stack Engineers are in high demand as we move into 2023, making this a lucrative...',
+    link:
+      'https://dev.to/sajeeb_me/top-10-skills-that-full-stack-engineers-in-2023-must-possess-2904',
+    imageUrl: 'https://i.ibb.co/Hrf7RS8/Top-10-skills-that-Full-Stack-Engineers-in-2023-must-possess-upload.jpg',
+    type: ['article'],
+  },
+  {
     title: 'Different ways to manage a state in a React application',
     description:
       'Plain JavaScript functions can’t store information that’s why we have to use State...',
