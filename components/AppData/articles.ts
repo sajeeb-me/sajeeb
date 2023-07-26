@@ -1,6 +1,15 @@
 const ARTICLE_DATA = [
 
   {
+    title: 'Different ways to manage a state in a React application',
+    description:
+      'Plain JavaScript functions can’t store information that’s why we have to use State...',
+    link:
+      'https://medium.com/@sdshuvo/different-ways-to-manage-a-state-in-a-react-application-f056be244fa4',
+    imageUrl: 'https://i.ibb.co/j3VGCrx/1-Gw-NPv-FQ1i6-XOg-Ei-WHg-Du1g.webp',
+    type: ['article'],
+  },
+  {
     title: 'How will you improve the performance of a React Application?',
     description: 'Improving the performance of a Application is the key of a application who...',
     link: 'https://medium.com/@sdshuvo/how-will-you-improve-the-performance-of-a-react-application-d8240850828c',
