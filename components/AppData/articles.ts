@@ -1,5 +1,14 @@
 const ARTICLE_DATA = [
-
+  {
+    title: 'A Complete Guide on Using React Native to Create Cross-Platform Mobile Apps',
+    description:
+      'React Native has revolutionised the quick-moving field of mobile app development by...',
+    link:
+      'https://dev.to/sajeeb_me/a-complete-guide-on-using-react-native-to-create-cross-platform-mobile-apps-55jh',
+    imageUrl:
+      'https://i.ibb.co/pR8M07k/A-Complete-Guide-on-Using-React-Native-to-Create-Cross-Platform-Mobile-Apps-upload.jpg',
+    type: ['article'],
+  },
   {
     title: 'Getting Started with TypeScript: Benefits and Best Practices for JavaScript Developers',
     description:
