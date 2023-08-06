@@ -12,7 +12,7 @@ import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
 
 /* ---------------------------- Image Dependency ---------------------------- */
-import { Date, Github, Dribble, Product } from '../components/Icons';
+import { Date, Github, Dribble, Product, Article } from '../components/Icons';
 
 const About = () => {
   return (
@@ -60,6 +60,30 @@ const About = () => {
                     <b>Interpersonal skills : </b>User Experience, UI design, Graphic Design, Figma, PowerPoint
                   </p>
                 </div>
+              </li>
+
+              <li>
+                <Link
+                  href="/articles"
+                  aria-label="Check my articles"
+                  id="cardHover"
+                >
+                  My Articles{' '}
+                  <small>
+                    <Article />
+                  </small>
+                </Link>
+                <Link
+                  href="/articles"
+                  aria-label="Check my articles"
+                  id="cardHover"
+                  className="float-right"
+                >
+                  Read Articles
+                </Link>
+                <p>
+                  As a full stack web developer, I regularly share technical articles covering web development and programming topics. These pieces showcase my ability to clearly explain complex concepts, providing actionable insights based on hands-on experience. Article topics range from JavaScript frameworks and CSS techniques to security best practices and career advice in the tech industry. The goal is to synthesize what I learn through continued self-education into helpful tips for others. The articles published here reflect a sample of my writing.
+                </p>
               </li>
 
               <li>
@@ -245,9 +269,9 @@ const About = () => {
               </li>
             </ul>
           </article>
-        </PageWrapper>
+        </PageWrapper> */}
 
-        <PageWrapper
+        {/* <PageWrapper
           className="mb-5"
           aria-label="You are now in my musical playlist section"
         >
