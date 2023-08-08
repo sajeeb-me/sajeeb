@@ -1,5 +1,15 @@
 const ARTICLE_DATA = [
   {
+    title: 'Server-Side Rendering with Next.js: Improving Performance and SEO',
+    description:
+      'Server-side rendering (SSR) has become an essential technique for building fast...',
+    link:
+      'https://dev.to/sajeeb_me/server-side-rendering-with-nextjs-improving-performance-and-seo-52bf',
+    imageUrl:
+      'https://i.ibb.co/BHDbMLs/Server-Side-Rendering-with-Next-js-upload.jpg',
+    type: ['article'],
+  },
+  {
     title: 'A Complete Guide on Using React Native to Create Cross-Platform Mobile Apps',
     description:
       'React Native has revolutionised the quick-moving field of mobile app development by...',
