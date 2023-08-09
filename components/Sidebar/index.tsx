@@ -70,7 +70,7 @@ const Sidebar = () => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://instagram.com/sdshuvo9898"
+                    href="https://instagram.com/sajeeb_me"
                     aria-label="Go To Sajeeb Das Shuvo Instagram Page"
                     title="Instagram Page"
                 >
