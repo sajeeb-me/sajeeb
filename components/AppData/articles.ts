@@ -1,5 +1,15 @@
 const ARTICLE_DATA = [
   {
+    title: 'Next.js vs. React.js: Choosing the Right Framework for Your Web Projects',
+    description:
+      'Selecting the appropriate framework is essential when creating web apps. Next.js and React...',
+    link:
+      'https://dev.to/sajeeb_me/nextjs-vs-reactjs-choosing-the-right-framework-for-your-web-projects-1hn',
+    imageUrl:
+      'https://i.ibb.co/b7SDMLq/Next-js-vs-React-js-Choosing-the-Right-Framework-for-Your-Web-Projects.png',
+    type: ['article'],
+  },
+  {
     title: 'Server-Side Rendering with Next.js: Improving Performance and SEO',
     description:
       'Server-side rendering (SSR) has become an essential technique for building fast...',
