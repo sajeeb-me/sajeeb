@@ -1,5 +1,15 @@
 const ARTICLE_DATA = [
   {
+    title: 'The Art of Code Review: Ensuring Quality in Full Stack Projects',
+    description:
+      'Code review is an essential practice in software development that helps ensure the quality...',
+    link:
+      'https://dev.to/sajeeb_me/the-art-of-code-review-ensuring-quality-in-full-stack-projects-21a7',
+    imageUrl:
+      'https://i.ibb.co/3vrw8vW/The-Art-of-Code-Review-Ensuring-Quality-in-Full-Stack-Projects.png',
+    type: ['article'],
+  },
+  {
     title: 'Next.js vs. React.js: Choosing the Right Framework for Your Web Projects',
     description:
       'Selecting the appropriate framework is essential when creating web apps. Next.js and React...',
