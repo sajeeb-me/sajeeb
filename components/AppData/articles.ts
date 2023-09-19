@@ -1,4 +1,54 @@
 const ARTICLE_DATA = [
+  // {
+  //   title: 'Building Empathy in Code: How to Craft User-Centric Applications',
+  //   description:
+  //     'In the realm of software development, there exists a fundamental but often overlooked principle...',
+  //   link:
+  //     'https://dev.to/sajeeb_me/building-empathy-in-code-how-to-craft-user-centric-applications-2dan',
+  //   imageUrl:
+  //     'https://i.ibb.co/dfPjn7Y/Building-Empathy-in-Code-How-to-Craft-User-Centric-Applications.png',
+  //   type: ['article'],
+  // },
+  // {
+  //   title: 'Building Empathy in Code: How to Craft User-Centric Applications',
+  //   description:
+  //     'In the realm of software development, there exists a fundamental but often overlooked principle...',
+  //   link:
+  //     'https://dev.to/sajeeb_me/building-empathy-in-code-how-to-craft-user-centric-applications-2dan',
+  //   imageUrl:
+  //     'https://i.ibb.co/dfPjn7Y/Building-Empathy-in-Code-How-to-Craft-User-Centric-Applications.png',
+  //   type: ['article'],
+  // },
+  // {
+  //   title: 'Mastering Version Control: Best Practices with Git for Development Teams',
+  //   description:
+  //     'Version control is the backbone of effective software development, and Git stands at the forefront...',
+  //   link:
+  //     'https://dev.to/sajeeb_me/mastering-version-control-best-practices-with-git-for-development-teams-1meo',
+  //   imageUrl:
+  //     'https://i.ibb.co/9bJvDQ2/Mastering-Version-Control-Best-Practices-with-Git-for-Development-Teams.png',
+  //   type: ['article'],
+  // },
+  // {
+  //   title: 'Mastering Frontend Design: UI/UX Principles for Full Stack Engineers',
+  //   description:
+  //     "As a full stack engineer, it's important to have a solid grasp of frontend design and UI/UX principles...",
+  //   link:
+  //     'https://dev.to/sajeeb_me/mastering-frontend-design-uiux-principles-for-full-stack-engineers-1386',
+  //   imageUrl:
+  //     'https://i.ibb.co/PtMCMwW/Mastering-Frontend-Design-UIUX-Principles-for-Full-Stack-Engineers.png',
+  //   type: ['article'],
+  // },
+  {
+    title: 'Building High-Performance Web Applications with the MERN Stack',
+    description:
+      'The MERN stack is a popular choice for building modern, high-performance web applications...',
+    link:
+      'https://dev.to/sajeeb_me/building-high-performance-web-applications-with-the-mern-stack-peg',
+    imageUrl:
+      'https://i.ibb.co/vk0jmFp/Building-High-Performance-Web-Applications-with-the-MERN-Stack.png',
+    type: ['article'],
+  },
   {
     title: 'The Art of Code Review: Ensuring Quality in Full Stack Projects',
     description:
