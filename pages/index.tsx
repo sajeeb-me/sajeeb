@@ -31,15 +31,15 @@ const Home = () => {
               <mark className="mark">I&apos;m Sajeeb Das Shuvo</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
-              I'm your friendly neighborhood <b>Full Stack Engineer</b>, armed with a keyboard and a passion for crafting awesome web experiences. From React Native to Next.js and TypeScript, I've got the skills to make your digital dreams come true.
+              I'm a <b>Full Stack Engineer</b> on a mission to turn digital dreams into reality. With expertise in React Native, Next.js, and TypeScript, I wield my keyboard like a magic wand to craft exceptional web experiences.
             </motion.p>
 
             <motion.p {...getTransitions(0.5)}>
-              I take a no-nonsense approach when it comes to building robust and scalable applications. But don't worry, my code is much funnier than my jokes - and that's saying something! I believe in bringing a touch of humor to my work while maintaining the utmost professionalism.
+              I take a no-nonsense approach to build robust and scalable applications, but here's the twist - my code is funnier than my jokes! I blend professionalism with humor, ensuring that work is both efficient and enjoyable.
             </motion.p>
 
             <motion.p {...getTransitions(0.7)}>
-              When I'm not knee-deep in code, you might catch me busting a move to the beat of pop music and jazz. It keeps my creative juices flowing and ensures I'm always in sync with the latest trends. Ready to bring your project to life? Let's join forces and create some tech magic that'll leave everyone grinning from ear to ear. Get in touch, and let the fun begin!
+              Ready to bring your project to life? Let's create some tech magic that'll leave everyone grinning. Get in touch, and let the fun begin!
             </motion.p>
           </article>
 
