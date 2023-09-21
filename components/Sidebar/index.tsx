@@ -52,7 +52,7 @@ const Sidebar = () => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://twitter.com/sdshuvo98"
+                    href="https://twitter.com/me_sajeeb"
                     aria-label="Go To Sajeeb Das Shuvo Twitter Page"
                     title="Twitter Page"
                 >
@@ -140,6 +140,19 @@ const Sidebar = () => {
                                         title="About"
                                     >
                                         About
+                                    </Link>
+                                </li>
+                                <li className="nav-item hover__bottom">
+                                    <Link
+                                        href="/articles"
+                                        activeClassName="is-active"
+                                        className="nav-link"
+                                        id="cardHover"
+                                        onClick={closeShow}
+                                        aria-label="Go To Articles Page"
+                                        title="Articles"
+                                    >
+                                        Articles
                                     </Link>
                                 </li>
                                 <li className="nav-item hover__bottom">
