@@ -19,16 +19,16 @@ const ARTICLE_DATA = [
   //     'https://i.ibb.co/dfPjn7Y/Building-Empathy-in-Code-How-to-Craft-User-Centric-Applications.png',
   //   type: ['article'],
   // },
-  // {
-  //   title: 'Mastering Version Control: Best Practices with Git for Development Teams',
-  //   description:
-  //     'Version control is the backbone of effective software development, and Git stands at the forefront...',
-  //   link:
-  //     'https://dev.to/sajeeb_me/mastering-version-control-best-practices-with-git-for-development-teams-1meo',
-  //   imageUrl:
-  //     'https://i.ibb.co/9bJvDQ2/Mastering-Version-Control-Best-Practices-with-Git-for-Development-Teams.png',
-  //   type: ['article'],
-  // },
+  {
+    title: 'Mastering Version Control: Best Practices with Git for Development Teams',
+    description:
+      'Version control is the backbone of effective software development, and Git stands at the forefront...',
+    link:
+      'https://dev.to/sajeeb_me/mastering-version-control-best-practices-with-git-for-development-teams-1meo',
+    imageUrl:
+      'https://i.ibb.co/9bJvDQ2/Mastering-Version-Control-Best-Practices-with-Git-for-Development-Teams.png',
+    type: ['article'],
+  },
   {
     title: 'Mastering Frontend Design: UI/UX Principles for Full Stack Engineers',
     description:
