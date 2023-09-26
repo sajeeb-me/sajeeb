@@ -1,14 +1,14 @@
 const ARTICLE_DATA = [
-  // {
-  //   title: 'Building Empathy in Code: How to Craft User-Centric Applications',
-  //   description:
-  //     'In the realm of software development, there exists a fundamental but often overlooked principle...',
-  //   link:
-  //     'https://dev.to/sajeeb_me/building-empathy-in-code-how-to-craft-user-centric-applications-2dan',
-  //   imageUrl:
-  //     'https://i.ibb.co/dfPjn7Y/Building-Empathy-in-Code-How-to-Craft-User-Centric-Applications.png',
-  //   type: ['article'],
-  // },
+  {
+    title: 'The Art of Debugging: Turning Coding Challenges into Creative Problem-Solving Adventures',
+    description:
+      'Debugging is an art, a skill that every programmer must master on their journey towards becoming a proficient coder...',
+    link:
+      'https://medium.com/@sdshuvo/the-art-of-debugging-turning-coding-challenges-into-creative-problem-solving-adventures-9cb67baac50e',
+    imageUrl:
+      'https://i.ibb.co/q5qh535/The-Art-of-Debugging-Turning-Coding-Challenges-into-Creative-Problem-Solving-Adventures.png',
+    type: ['article'],
+  },
   {
     title: 'Building Empathy in Code: How to Craft User-Centric Applications',
     description:
