@@ -9,16 +9,16 @@ const ARTICLE_DATA = [
   //     'https://i.ibb.co/dfPjn7Y/Building-Empathy-in-Code-How-to-Craft-User-Centric-Applications.png',
   //   type: ['article'],
   // },
-  // {
-  //   title: 'Building Empathy in Code: How to Craft User-Centric Applications',
-  //   description:
-  //     'In the realm of software development, there exists a fundamental but often overlooked principle...',
-  //   link:
-  //     'https://dev.to/sajeeb_me/building-empathy-in-code-how-to-craft-user-centric-applications-2dan',
-  //   imageUrl:
-  //     'https://i.ibb.co/dfPjn7Y/Building-Empathy-in-Code-How-to-Craft-User-Centric-Applications.png',
-  //   type: ['article'],
-  // },
+  {
+    title: 'Building Empathy in Code: How to Craft User-Centric Applications',
+    description:
+      'In the realm of software development, there exists a fundamental but often overlooked principle...',
+    link:
+      'https://dev.to/sajeeb_me/building-empathy-in-code-how-to-craft-user-centric-applications-2dan',
+    imageUrl:
+      'https://i.ibb.co/dfPjn7Y/Building-Empathy-in-Code-How-to-Craft-User-Centric-Applications.png',
+    type: ['article'],
+  },
   {
     title: 'Mastering Version Control: Best Practices with Git for Development Teams',
     description:
