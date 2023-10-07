@@ -1,5 +1,15 @@
 const ARTICLE_DATA = [
   {
+    title: 'Coding as a Language: Breaking Down Barriers for Non-Technical Stakeholders',
+    description:
+      'In today’s technology-driven world, coding is no longer the exclusive domain of developers...',
+    link:
+      'https://medium.com/@sdshuvo/coding-as-a-language-breaking-down-barriers-for-non-technical-stakeholders-4251277cfade',
+    imageUrl:
+      'https://i.ibb.co/Kx6tvLw/Coding-as-a-Language-Breaking-Down-Barriers-for-Non-Technical-Stakeholders.png',
+    type: ['article'],
+  },
+  {
     title: 'The Art of Debugging: Turning Coding Challenges into Creative Problem-Solving Adventures',
     description:
       'Debugging is an art, a skill that every programmer must master on their journey towards becoming a proficient coder...',
