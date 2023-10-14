@@ -1,5 +1,15 @@
 const ARTICLE_DATA = [
   {
+    title: 'The Sustainable Developer: How to Reduce Your Carbon Footprint in the Tech Industry',
+    description:
+      "In an age dominated by technology, it's crucial for the tech industry to take responsibility for its environmental impact...",
+    link:
+      'https://dev.to/sajeeb_me/the-sustainable-developer-how-to-reduce-your-carbon-footprint-in-the-tech-industry-4lik',
+    imageUrl:
+      'https://i.ibb.co/z6zML9j/The-Sustainable-Developer-How-to-Reduce-Your-Carbon-Footprint-in-the-Tech-Industry.png',
+    type: ['article'],
+  },
+  {
     title: 'Coding as a Language: Breaking Down Barriers for Non-Technical Stakeholders',
     description:
       'In today’s technology-driven world, coding is no longer the exclusive domain of developers...',
