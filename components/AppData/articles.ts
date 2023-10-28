@@ -1,5 +1,15 @@
 const ARTICLE_DATA = [
   {
+    title: "Tech and Wellness: Balancing the Demands of a Full Stack Developer's Life",
+    description:
+      "In today's fast-paced tech industry, being a full stack developer is both rewarding and demanding...",
+    link:
+      'https://dev.to/sajeeb_me/tech-and-wellness-balancing-the-demands-of-a-full-stack-developers-life-342a',
+    imageUrl:
+      'https://i.ibb.co/983WMNs/Tech-and-Wellness-Balancing-the-Demands-of-a-Full-Stack-Developer-s-Life.png',
+    type: ['article'],
+  },
+  {
     title: 'The Sustainable Developer: How to Reduce Your Carbon Footprint in the Tech Industry',
     description:
       "In an age dominated by technology, it's crucial for the tech industry to take responsibility for its environmental impact...",
