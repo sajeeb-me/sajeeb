@@ -1,5 +1,15 @@
 const ARTICLE_DATA = [
   {
+    title: "Designing for Inclusivity: Creating Accessible Web Experiences for All",
+    description:
+      "In today's digital age, the internet has become an integral part of our lives, connecting people from all walks of life....",
+    link:
+      "https://www.linkedin.com/pulse/designing-inclusivity-creating-accessible-web-all-sajeeb-das-shuvo-6t67e?utm_source=share&utm_medium=guest_desktop&utm_campaign=copy",
+    imageUrl:
+      'https://i.ibb.co/kQxXX5c/Designing-for-Inclusivity-Creating-Accessible-Web-Experiences-for-All.png',
+    type: ['article'],
+  },
+  {
     title: "Tech and Wellness: Balancing the Demands of a Full Stack Developer's Life",
     description:
       "In today's fast-paced tech industry, being a full stack developer is both rewarding and demanding...",
