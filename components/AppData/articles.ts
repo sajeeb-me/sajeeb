@@ -10,6 +10,16 @@ const ARTICLE_DATA = [
     type: ['article'],
   },
   {
+    title: "The Psychology of User Interfaces: How Design Choices Impact User Behavior",
+    description:
+      "In the digital age, user interfaces (UI) play a pivotal role in shaping our online experiences.....",
+    link:
+      "https://dev.to/sajeeb_me/the-psychology-of-user-interfaces-how-design-choices-impact-user-behavior-hc2",
+    imageUrl:
+      'https://i.ibb.co/7Cpf1bs/The-Psychology-of-User-Interfaces-How-Design-Choices-Impact-User-Behavior.png',
+    type: ['article'],
+  },
+  {
     title: "Designing for Inclusivity: Creating Accessible Web Experiences for All",
     description:
       "In today's digital age, the internet has become an integral part of our lives, connecting people from all walks of life....",
