@@ -1,5 +1,4 @@
 const ARTICLE_DATA = [
-  
   {
     title: "The Psychology of User Interfaces: How Design Choices Impact User Behavior",
     description:

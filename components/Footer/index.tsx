@@ -45,7 +45,7 @@ const FooterLink: React.FC<IFooterLink &
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/sdshuvo98"
+            href="https://github.com/sajeeb-me"
             aria-label="Go To Sajeeb Das Shuvo Github Page"
             title="Github Page"
           >
