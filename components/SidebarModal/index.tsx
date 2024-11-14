@@ -5,6 +5,7 @@ import styled, { css, createGlobalStyle } from 'styled-components';
 
 /* --------------------------- Image Dependencies --------------------------- */
 import { Close, Github, Product } from '../Icons';
+import Image from '../Image';
 
 /* ------------------------- SideBarModal propTypes ------------------------ */
 
@@ -88,7 +89,8 @@ const SideBarModal: React.FC<ISideBarModal> = ({
                 <div className="main__post">
                   <h3 className="mt-4">{data.title}</h3>
                   <p className="te mb-4">{data.description}</p>
-                  <img src={data.imageUrl} alt={data.title} />
+                  {/* @ts-ignore */}
+                  <Image src={data.imageUrl} alt={data.imageUrl} />
                   <h4>About</h4>
                   <p>{data.about && data.about}</p>
                   <h4>Technologies</h4>

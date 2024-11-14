@@ -24,6 +24,20 @@ https://i.ibb.co/wW9HK6t/Positive-Energy.jpg
 
 const PROJECTS_DATA = [
   {
+    title: 'HonestEcho',
+    description: 'Full-stack responsive application for Car Dealers to manage stocks',
+    about: 'Landing page designed for showcasing and updating new inventories. Developed a User portal for managing, updating, and adding Inventories. Stored data at MongoDB. In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer. In Blogs section you will find the answers of 4 Questions',
+    link: 'https://automent-4fd77.web.app',
+    imageUrl: '/../public/projects/honestecho.png',
+    github: "https://github.com/sdshuvo98/automent-client",
+    // github: {
+    //   clientSide: "https://github.com/sdshuvo98/automent-client",
+    //   serverSide: "https://github.com/sdshuvo98/automent-server"
+    // },
+    type: ['project', 'open-source', 'tools'],
+    technologies: ['React', 'Express', 'MongoDB', 'JWT', 'Firebase', 'Tailwind CSS', 'React Hook Form'],
+  },
+  {
     title: 'AutoMent',
     description: 'Full-stack responsive application for Car Dealers to manage stocks',
     about: 'Landing page designed for showcasing and updating new inventories. Developed a User portal for managing, updating, and adding Inventories. Stored data at MongoDB. In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer. In Blogs section you will find the answers of 4 Questions',
