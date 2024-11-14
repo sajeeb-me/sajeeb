@@ -1,14 +1,8 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { arrayRandomItem } from 'codewonders-helpers';
 import { motion } from 'framer-motion';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 
 import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
@@ -31,12 +25,12 @@ const Home = () => {
               <mark className="mark">I&apos;m Sajeeb Das Shuvo</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
-              I'm a <b>Full Stack Engineer</b> on a mission to turn digital dreams into reality. With expertise in React Native, Next.js, and TypeScript, I wield my keyboard like a magic wand to craft exceptional web experiences.
+              I am a <b>Full Stack Engineer</b> inspired to turn digital dreams into reality, empowering innovation and creativity. With a strong foundation in problem-solving skills and proficiency in modern technologies such as React Native, Next.js, and TypeScript, I utilize my technical expertise to develop exceptional web experiences.
             </motion.p>
-
+            {/* 
             <motion.p {...getTransitions(0.5)}>
               I take a no-nonsense approach to build robust and scalable applications, but here's the twist - my code is funnier than my jokes! I blend professionalism with humor, ensuring that work is both efficient and enjoyable.
-            </motion.p>
+            </motion.p> */}
 
             <motion.p {...getTransitions(0.7)}>
               Ready to bring your project to life? Let's create some tech magic that'll leave everyone grinning. Get in touch, and let the fun begin!
@@ -48,10 +42,6 @@ const Home = () => {
           <motion.div {...getTransitions(0.9)}>
             <FooterLink goto="/projects">See My Latest Project</FooterLink>
           </motion.div>
-
-          {/* <motion.div {...getTransitions(0.9)}>
-            <FooterLink goto="/about">See More About Me</FooterLink>
-          </motion.div> */}
 
           <br />
         </PageWrapper>
