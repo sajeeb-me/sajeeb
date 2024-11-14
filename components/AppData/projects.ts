@@ -28,7 +28,7 @@ const PROJECTS_DATA = [
     description: 'A robust scheduling tool to make appointment scheduling and management easier',
     about: 'Easy Scheduling: Set your availability and share booking links with clients effortlessly. //Automated Reminders: Reduce no-shows with automated email and SMS reminders. //Calendar Integration: Sync with Google Calendar, Outlook, and other popular calendar services. //Customizable Booking Pages: Personalize your booking pages to match your brand. //Client Management: Keep track of client details and appointment history in one place. //Time Zone Detection: Automatically adjust for different time zones to avoid scheduling conflicts. ',
     link: 'https://calsajeeb.vercel.app/',
-    imageUrl: '/../public/projects/calsajeeb.png',
+    imageUrl: '../../public/projects/calsajeeb.png',
     github: "https://github.com/sajeeb-me/calsajeeb",
     type: ['project', 'open-source', 'tools'],
     technologies: ['Next.js', 'Prisma', 'Nylas', 'NextAuth', 'Zod', 'Tailwind CSS', 'Vercel'],
