@@ -3,9 +3,8 @@ import styled from 'styled-components';
 import { arrayRandomItem } from 'codewonders-helpers';
 import { useRouter, withRouter } from 'next/router';
 
-// import Image from '../Image';
+import Image from '../Image';
 import SideBarModal from '../SidebarModal';
-import Image from 'next/image';
 
 interface MansoryItemProps {
   item: {
@@ -66,7 +65,7 @@ const MansoryItem: React.FC<MansoryItemProps> = ({ item }) => {
             }}
             tabIndex={0}
           >
-            <Image src={item.imageUrl} alt={item.imageUrl} height={500} width={500} />
+            <Image src={item.imageUrl} alt={item.imageUrl} />
             <div className="content__slate">
               <h3>{item.title}</h3>
               <p>{item.description}</p>
