@@ -92,7 +92,16 @@ const SideBarModal: React.FC<ISideBarModal> = ({
                   {/* @ts-ignore */}
                   <Image src={data.imageUrl} alt={data.imageUrl} />
                   <h4>About</h4>
-                  <p>{data.about && data.about}</p>
+                  {/* <p>{data.about && data.about}</p> */}
+                  <p>
+                    {data.about && (
+                      <ul>
+                        {data.about.split('//').map((item, index) => (
+                          <li key={index}>{item.trim()}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </p>
                   <h4>Technologies</h4>
 
                   {data.technologies && (

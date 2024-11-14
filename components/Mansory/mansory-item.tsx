@@ -1,15 +1,11 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { arrayRandomItem } from 'codewonders-helpers';
 import { useRouter, withRouter } from 'next/router';
-/* -------------------------- Internal Dependencies ------------------------- */
+
 import Image from '../Image';
 import SideBarModal from '../SidebarModal';
 
-/* -------------------------- MansoryItem PropTypes ------------------------- */
 interface MansoryItemProps {
   item: {
     title: string;

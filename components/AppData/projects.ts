@@ -24,18 +24,24 @@ https://i.ibb.co/wW9HK6t/Positive-Energy.jpg
 
 const PROJECTS_DATA = [
   {
-    title: 'HonestEcho',
-    description: 'Full-stack responsive application for Car Dealers to manage stocks',
-    about: 'Landing page designed for showcasing and updating new inventories. Developed a User portal for managing, updating, and adding Inventories. Stored data at MongoDB. In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer. In Blogs section you will find the answers of 4 Questions',
-    link: 'https://automent-4fd77.web.app',
-    imageUrl: '/../public/projects/honestecho.png',
-    github: "https://github.com/sdshuvo98/automent-client",
-    // github: {
-    //   clientSide: "https://github.com/sdshuvo98/automent-client",
-    //   serverSide: "https://github.com/sdshuvo98/automent-server"
-    // },
+    title: 'CalSajeeb',
+    description: 'A robust scheduling tool to make appointment scheduling and management easier',
+    about: 'Easy Scheduling: Set your availability and share booking links with clients effortlessly. //Automated Reminders: Reduce no-shows with automated email and SMS reminders. //Calendar Integration: Sync with Google Calendar, Outlook, and other popular calendar services. //Customizable Booking Pages: Personalize your booking pages to match your brand. //Client Management: Keep track of client details and appointment history in one place. //Time Zone Detection: Automatically adjust for different time zones to avoid scheduling conflicts. ',
+    link: 'https://calsajeeb.vercel.app/',
+    imageUrl: '/../public/projects/calsajeeb.png',
+    github: "https://github.com/sajeeb-me/calsajeeb",
     type: ['project', 'open-source', 'tools'],
-    technologies: ['React', 'Express', 'MongoDB', 'JWT', 'Firebase', 'Tailwind CSS', 'React Hook Form'],
+    technologies: ['Next.js', 'Prisma', 'Nylas', 'NextAuth', 'Zod', 'Tailwind CSS', 'Vercel'],
+  },
+  {
+    title: 'HonestEcho',
+    description: 'A feedback platform that allows users to provide anonymous feedback',
+    about: 'Anonymous messaging: Users can send and receive messages without revealing their identity. //User authentication: Secure user registration and login system using NextAuth and Zod. //Real-time updates: Messages are delivered instantly. //User-friendly interface: Intuitive and responsive design for a seamless user experience.',
+    link: 'https://honestecho.vercel.app/',
+    imageUrl: '/../public/projects/honestecho.png',
+    github: "https://github.com/sajeeb-me/HonestEcho",
+    type: ['project', 'open-source', 'tools'],
+    technologies: ['Next.js', 'NextAuth', 'Zod', 'OpenAI', 'Resend', 'Mongoose', 'MongoDB', 'React Hook Form', 'Axios'],
   },
   {
     title: 'AutoMent',
