@@ -1,6 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
+
 import styled, { createGlobalStyle, css } from 'styled-components';
 
 const FontToken = css`

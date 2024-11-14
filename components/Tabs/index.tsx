@@ -1,6 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
+
 import React, {
   PropsWithChildren,
   ReactElement,
@@ -8,7 +6,7 @@ import React, {
   useState,
 } from 'react';
 
-/* -------------------------- Internal Dependecies -------------------------- */
+
 import styled from 'styled-components';
 import Tab from './Tab';
 

@@ -1,6 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
+
 import React, { useCallback, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled, { css, createGlobalStyle } from 'styled-components';

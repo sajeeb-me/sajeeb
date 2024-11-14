@@ -1,11 +1,5 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 
 import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
@@ -29,36 +23,6 @@ const Projects = () => {
                 ))}
               </MansoryLayout>
             </TabItems>
-            {/* <TabItems label="Projects">
-              <MansoryLayout>
-                {projectsData.map(
-                  (item, index) =>
-                    item.type.includes('project') && (
-                      <MansoryItem key={index} item={item} />
-                    )
-                )}
-              </MansoryLayout>
-            </TabItems>
-            <TabItems label="Dev Tools">
-              <MansoryLayout>
-                {projectsData.map(
-                  (item, index) =>
-                    item.type.includes('tools') && (
-                      <MansoryItem key={index} item={item} />
-                    )
-                )}
-              </MansoryLayout>
-            </TabItems>
-            <TabItems label="Open Source">
-              <MansoryLayout>
-                {projectsData.map(
-                  (item, index) =>
-                    item.type.includes('open-source') && (
-                      <MansoryItem key={index} item={item} />
-                    )
-                )}
-              </MansoryLayout>
-            </TabItems> */}
             <TabItems label="Designs" href="https://dribbble.com/sdshuvo9898" />
           </Tabs>
         </PageWrapper>

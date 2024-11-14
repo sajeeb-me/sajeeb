@@ -1,6 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
+
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { arrayRandomItem } from 'codewonders-helpers';
