@@ -52,7 +52,7 @@ const FooterLink: React.FC<IFooterLink &
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://linkedin.com/in/sdshuvo"
+            href="https://linkedin.com/in/sajeeb-me"
             aria-label="Go To Sajeeb Das Shuvo Linkedin Page"
             title="Linkedin Page"
           >
@@ -61,13 +61,13 @@ const FooterLink: React.FC<IFooterLink &
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/sdshuvo98"
+            href="https://x.com/me_sajeeb"
             aria-label="Go To Sajeeb Das Shuvo Twitter Page"
             title="Twitter Page"
           >
             <Twitter />
           </a>
-          <a
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.facebook.com/sdshuvo9898"
@@ -84,16 +84,7 @@ const FooterLink: React.FC<IFooterLink &
             title="Instagram Page"
           >
             <Instagram />
-          </a>
-          {/* <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://dribbble.com/codewonders"
-              aria-label="Go To Sajeeb Das Shuvo Dribble Page"
-              title="Dribbble Page"
-            >
-              <Dribble />
-            </a> */}
+          </a> */}
         </SocialMedia>
       </>
     );

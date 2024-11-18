@@ -43,7 +43,7 @@ const Sidebar = () => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://linkedin.com/in/sdshuvo"
+                    href="https://linkedin.com/in/sajeeb-me"
                     aria-label="Go To Sajeeb Das Shuvo Linkedin Page"
                     title="Linkedin Page"
                 >
@@ -52,13 +52,13 @@ const Sidebar = () => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://twitter.com/me_sajeeb"
+                    href="https://x.com/me_sajeeb"
                     aria-label="Go To Sajeeb Das Shuvo Twitter Page"
                     title="Twitter Page"
                 >
                     <Twitter />
                 </a>
-                <a
+                {/* <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.facebook.com/sdshuvo9898"
@@ -75,16 +75,7 @@ const Sidebar = () => {
                     title="Instagram Page"
                 >
                     <Instagram />
-                </a>
-                {/* <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://dribbble.com/codewonders"
-              aria-label="Go To Sajeeb Das Shuvo Dribble Page"
-              title="Dribbble Page"
-            >
-              <Dribble />
-            </a> */}
+                </a> */}
             </SidebarSocialMedia>
             <SidebarStyle>
                 <nav className="navbar-expand-lg">

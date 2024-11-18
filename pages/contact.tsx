@@ -1,9 +1,5 @@
-
-
 import React from 'react';
 import styled from 'styled-components';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 
 import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
@@ -17,7 +13,7 @@ const Contact = () => {
           <article>
             <p>
               Get in touch or shoot me an email directly on{' '}
-              <b>hellosdshuvo@gmail.com</b>
+              <b>sajeeb.das@hotmail.com</b>
             </p>
           </article>
           <br />
