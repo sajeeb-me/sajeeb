@@ -1,27 +1,3 @@
-/**
-small size:
-https://i.ibb.co/0FFywnS/automent.gif
-https://i.ibb.co/9cJCq6H/coin-kinbo.gif
-https://i.ibb.co/XpsCqKc/traveeel.gif
-https://i.ibb.co/TBLNnVb/carts.gif
-https://i.ibb.co/6WHm54V/positive-energy.gif
-https://i.ibb.co/r5K1hJk/passionate-traveller.gif
-
-large size:
-https://i.ibb.co/k3QPf7Q/automent-min.gif
-https://i.ibb.co/NFhMJ1G/coin-kinbo-min.gif
-https://i.ibb.co/mXyBKtb/traveeel-min.gif
-https://i.ibb.co/8sKwLq0/carts-min.gif
-https://i.ibb.co/B2DyhKj/positive-energy-min.gif
-https://i.ibb.co/B2C2sK9/passionate-traveller-min.gif
-
-
-image:
-https://i.ibb.co/2YJYQzY/Traveeel.jpg
-https://i.ibb.co/smqVzrG/Passionate-Traveler.jpg
-https://i.ibb.co/wW9HK6t/Positive-Energy.jpg
- */
-
 const PROJECTS_DATA = [
   {
     title: 'CalSajeeb',
@@ -46,7 +22,7 @@ const PROJECTS_DATA = [
   {
     title: 'AutoMent',
     description: 'Full-stack responsive application for Car Dealers to manage stocks',
-    about: 'Landing page designed for showcasing and updating new inventories. Developed a User portal for managing, updating, and adding Inventories. Stored data at MongoDB. In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer. In Blogs section you will find the answers of 4 Questions',
+    about: 'Landing page designed for showcasing and updating new inventories. //Developed a User portal for managing, updating, and adding Inventories. //Stored data at MongoDB. //In Home route you will get the overview about our site. //You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer. //In Blogs section you will find the answers of 4 Questions',
     link: 'https://automent-4fd77.web.app',
     imageUrl: 'https://i.ibb.co/0FFywnS/automent.gif',
     github: "https://github.com/sdshuvo98/automent-client",
