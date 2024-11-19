@@ -30,6 +30,16 @@ const PROJECTS_DATA = [
     technologies: ['React', 'Express', 'MongoDB', 'JWT', 'Firebase', 'Tailwind CSS', 'React Hook Form'],
   },
   {
+    title: 'Carts',
+    description: 'Mobile responsive website for Car Parts Manufacturers',
+    about: 'Implemented card payment method, email notification, and MongoDB data storage. //Developed admin portal to manage orders and products, add products, and grant admin access. //Created a user portal for managing profiles, orders, and payments. //Admin credentials are provided in the README.md file on the client-side GitHub link.',
+    github: "https://github.com/sdshuvo98/carts-client",
+    link: 'https://carts-68435.web.app',
+    imageUrl: 'https://i.ibb.co/TBLNnVb/carts.gif',
+    type: ['project'],
+    technologies: ['React', 'Express', 'MongoDB', 'Stripe', 'Firebase', 'Mailgun'],
+  },
+  {
     title: 'CoinKinbo',
     description: 'Full-Stack mobile responsive website for Cryptocurrency Sellers',
     about: 'Successfully implemented card payment method and ContextAPI, resulting in a streamlined user experience and improved data security. //Developed admin portal for efficient management of orders and user roles. //Admin credentials are provided in the README.me file on the Client Site Github link. //Created a user portal with features for profile management, order tracking, and secure payments. //All data is stored securely in MongoDB, ensuring scalability and reliability for the platform.',
@@ -48,16 +58,6 @@ const PROJECTS_DATA = [
     imageUrl: 'https://i.ibb.co/2YJYQzY/Traveeel.jpg',
     type: ['others', 'project'],
     technologies: ['React', 'Javascript', 'Tailwind'],
-  },
-  {
-    title: 'Carts',
-    description: 'Mobile responsive website for Car Parts Manufacturers',
-    about: 'Implemented card payment method, email notification, and MongoDB data storage. //Developed admin portal to manage orders and products, add products, and grant admin access. //Created a user portal for managing profiles, orders, and payments. //Admin credentials are provided in the README.md file on the client-side GitHub link.',
-    github: "https://github.com/sdshuvo98/carts-client",
-    link: 'https://carts-68435.web.app',
-    imageUrl: 'https://i.ibb.co/TBLNnVb/carts.gif',
-    type: ['project'],
-    technologies: ['React', 'Express', 'MongoDB', 'Stripe', 'Firebase', 'Mailgun'],
   },
   {
     title: 'Positive Energy',

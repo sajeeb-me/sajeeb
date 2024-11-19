@@ -1,9 +1,6 @@
-
 import React, { PropsWithChildren } from 'react';
-
 import styled from 'styled-components';
 
-/* ------------------------- MansoryLayout PropTypes ------------------------ */
 
 const MansoryLayout: React.FC<PropsWithChildren> = ({ children }) => {
   return <Layout>{children}</Layout>;
@@ -19,16 +16,17 @@ const Layout = styled.div`
   -webkit-animation-fill-mode: both;
   max-width: auto;
   column-gap: 1.5em;
-  @media only screen and (min-width: 1024px) {
-    column-count: 2;
-  }
-  @media only screen and (max-width: 1023px) and (min-width: 768px) {
-    column-count: 1;
-  }
+  column-count: 1;
+  // @media only screen and (min-width: 1024px) {
+  //   column-count: 2;
+  // }
+  // @media only screen and (max-width: 1023px) and (min-width: 768px) {
+  //   column-count: 1;
+  // }
 
-  @media only screen and (max-width: 767px) and (min-width: 540px) {
-    column-count: 1;
-  }
+  // @media only screen and (max-width: 767px) and (min-width: 540px) {
+  //   column-count: 1;
+  // }
   @keyframes fadeInUp {
     from {
       margin-top: 4rem;
